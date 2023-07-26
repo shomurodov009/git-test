@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0%;
+    
+}
+a {
+    text-display: none;
+}
+ul {
+    list-style: none;
+}
+.header{
+    background: firebrick;
+    height: 100vh;
+}
+.nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.list {
+    display: flex;
+    column-gap: 30px;
+}
+.link {
+    color: antiquewhite;
+    font-size: 20px;
+}
